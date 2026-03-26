@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "89bb04fc-f925-4253-a549-f4418aa14460",
+  "record_id": "65fbec47-b841-44c3-bad2-dff3566e775b",
   "artifact": {
     "title": "Test",
     "author": "Lawrence Reilly",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Aj7ZoW/zZ9k3wjwEDd/bVm0bd8rjcD+UGFRAAkI8SDWNKdvDyIYn77tp6ap4vBMjyDNS7K0oYWi7aB2GY0QsgjwILrIXlIYuJVkOBz2OIxD4pF+VjMKYkOOd4BSJ6gtNVU3CPEEacTCa/AIfhfrL0BdX+IAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AjL6JUaEQdOUwjwEOr6SPkhxa7M4aGzKYZhdVcI8CB5Bitv7N8uFiaeQl6Yl2KT9kYIDGxkMhLo1RJ2gnsaogjxBGnEwmrwCJW9xykHy7EnAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BDY5kXeTl3gUwj5V4bqLFJPCPAgFW1M4evHZhXTe09FXp0Oui0bilo0GBSIB30fJn8xVHwI8QRpxMJq8AhKZ24gCnh4AACD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ=="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:21:47.143408+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/19164221",
@@ -31,24 +51,45 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreiazrljez4izt2xevrngoogxlmuk42ncc5ng2tqwmsdzsq3ib2q3ju",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiazrljez4izt2xevrngoogxlmuk42ncc5ng2tqwmsdzsq3ib2q3ju",
+      "cid": "bafkreib4ozkyjog2qlal2i76j3fghiz2dmjy6ydco5lqelfkr6i76jbp64",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreib4ozkyjog2qlal2i76j3fghiz2dmjy6ydco5lqelfkr6i76jbp64",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreiazrljez4izt2xevrngoogxlmuk42ncc5ng2tqwmsdzsq3ib2q3ju",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiazrljez4izt2xevrngoogxlmuk42ncc5ng2tqwmsdzsq3ib2q3ju"
+          "cid": "bafkreib4ozkyjog2qlal2i76j3fghiz2dmjy6ydco5lqelfkr6i76jbp64",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreib4ozkyjog2qlal2i76j3fghiz2dmjy6ydco5lqelfkr6i76jbp64"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreighuj4m3njzdpvqo2dron6ca7f5mmr4by6ktgms3sv5mtoeiwtp6e",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreighuj4m3njzdpvqo2dron6ca7f5mmr4by6ktgms3sv5mtoeiwtp6e"
+          "cid": "bafkreia5bgomwvoaqvgky3piwt2epe2g4t6yrsuyewefz53t5cgonw4oyq",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreia5bgomwvoaqvgky3piwt2epe2g4t6yrsuyewefz53t5cgonw4oyq"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19164221",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19164221",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/65fbec47-b841-44c3-bad2-dff3566e775b/json",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/65fbec47-b841-44c3-bad2-dff3566e775b/json",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19164221",
+          "status": "failed_429"
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19164221",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +103,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 37,
-    "sha256_chain_hash": "e8bf8fed899336a13e5058f127938d97fed41874660693da65a9e9f32c3c67fb",
-    "sha3_chain_hash": "13ab24ec03d667e995103ce01549854184301595bd10f865cafabb1f2a6e4783f68044c97a1f076b40dc3e0dd8eb2f4f3b372a8d394ffc5b618d530a38dd2ea7",
-    "blake3_chain_hash": "544c6b4175a1fae08f00eb30671e7cf2955324c96a88a15a31adf3e7add811c2",
-    "prev_sha256_chain": "40c2721a6f17b27ecc43fe850a8886b11c39f06a38508341d6301b3203231ff9",
-    "prev_sha3_chain": "45eab46fd9c88ddb0162d129be1f787a598579d63863a23fe5224e89b964c73759cbae79373dd0c5acda79d5f50707622a88ad7d021075c28455f4452727313a",
-    "prev_blake3_chain": "ac6c66ad90dfc4cc07004308ea5d6b0ec05ba596255e4f719a40899ba06d9d1c",
+    "block_index": 38,
+    "sha256_chain_hash": "8bc667a1063dee171d698ef04227c8ec7aef9e7980168120af1b31fa87580998",
+    "sha3_chain_hash": "21a67480a17eb9f2c0335c7d27b032290227fd9f1b97cc6683da9f1273701b9d854276eb9f01d18140bff7d405fd41256712e6bac99db4b4ac9d3605970139dd",
+    "blake3_chain_hash": "072aea4001e74742e57a708e351f46608753a65976b82d4bf8ccbd0a64be3df2",
+    "cross_chain_hash": "db208a20f25a41b9e8146f86be571ff08a6fbc0a09326bc3ea95c46a0b4e81b7a383a7ca67180b1846612828148b3a8fe4e5b249963d518e6d1aadcc92978f75",
+    "prev_sha256_chain": "08bfe2915e3b5f0d7d70695dbbca04f11ce0d906c9f4149a96d4b876b8c1fd1a",
+    "prev_sha3_chain": "9137b53acf6aedc20124bd3c9d89178e346611bc0f773de1f59c9843e761d16820d923d24d7e8c0af7e2e5c62072bfbb64a4d511bb12629a5cb0e6b3d4a69cab",
+    "prev_blake3_chain": "5e17b52ffc8a8aa52c93a6938ffedc8e8f466b8311fbf4589f52a8846c4b843f",
     "quantum_resilient": true
   }
 }
