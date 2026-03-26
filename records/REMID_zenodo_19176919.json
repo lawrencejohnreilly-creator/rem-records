@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "6aef4683-3cbf-40d2-b85c-375e6e6dc579",
+  "record_id": "c46592a6-7d32-44f5-b526-26434e189671",
   "artifact": {
     "title": "Inside of the Genesis Block",
     "author": "Lawrence Reilly",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AhBo5J+HoEyhQjwELX6jUUHt5jFmgDG7Sxx+KwI8SCI26PWMzED9G+ElDB/MwjR84LTNzMnnNFps6H0v6V46QjwILsXnGFm3MlZhust+eIH7n4h7oCmlYv4TrM6noXQplTdCPEEacTCYfAIRxTHz69j0tQAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AhRy+0xXwSNYgjwEI9QnS7bi9nxztsJ+C+7byYI8QRpxMJg8AhAvHvI0UqYuQCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BB/WdBtxx7TyclLxkijwhdoCPEEacTCYPAIZ7gF7rmS2H4Ag9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:21:37.119308+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/19176919",
@@ -31,24 +51,46 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreifpvjrdxwqpithskojxgv3sbqy7yi2mhmhiot3dxzldrtfurud3nm",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreifpvjrdxwqpithskojxgv3sbqy7yi2mhmhiot3dxzldrtfurud3nm",
+      "cid": "bafkreie2kcsnkswmt4zmqybcea32rhd2rs44qnywqvg5j2p2iy2q3tgpfy",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreie2kcsnkswmt4zmqybcea32rhd2rs44qnywqvg5j2p2iy2q3tgpfy",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreifpvjrdxwqpithskojxgv3sbqy7yi2mhmhiot3dxzldrtfurud3nm",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreifpvjrdxwqpithskojxgv3sbqy7yi2mhmhiot3dxzldrtfurud3nm"
+          "cid": "bafkreie2kcsnkswmt4zmqybcea32rhd2rs44qnywqvg5j2p2iy2q3tgpfy",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreie2kcsnkswmt4zmqybcea32rhd2rs44qnywqvg5j2p2iy2q3tgpfy"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreie6mqff34hzjrremzw5niabgvfrnx4xqoa4v4fsap44ab3obdotje",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreie6mqff34hzjrremzw5niabgvfrnx4xqoa4v4fsap44ab3obdotje"
+          "cid": "bafkreidp3246futxmlrq4ibw2lopmh45z5dw6ijwx3n2exzq46chlpejny",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidp3246futxmlrq4ibw2lopmh45z5dw6ijwx3n2exzq46chlpejny"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19176919",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19176919",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/c46592a6-7d32-44f5-b526-26434e189671/json",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/c46592a6-7d32-44f5-b526-26434e189671/json",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19176919",
+          "status": "failed",
+          "error": ""
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19176919",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +104,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 47,
-    "sha256_chain_hash": "2dffd511af90f3b0f178ee9e3404b739de66c0c5382eda1e5522f55b7b890aef",
-    "sha3_chain_hash": "3ab4556939c58eb83868affb2ad19fd70462074dd607aa7b5d8e69f35a254db7bda5d47ce331d39dfedfdc7f6c006bbbea34044efeb3eb3ce7dcc588cc9b7a43",
-    "blake3_chain_hash": "bcde58bf6d8b06967b8ef2845fcb39186e8629104acb4e0b8790ca3289a35fdf",
-    "prev_sha256_chain": "cdd86113e88f68ef63ba53cb1e2d8d98768b7a5e1f1a61052baf85d9b9afe06e",
-    "prev_sha3_chain": "382922acf55db1c6a024dcd5f8ede4a3e39c35f5e9920a8b64783eaf99f008465679f390313b3b24c786171e1389885a8a2db97ab86ee9bcdd41438ec8e545ed",
-    "prev_blake3_chain": "2391d314a57086c2d34ccb09122b1690285336145fae0a2173b8108705a033d2",
+    "block_index": 48,
+    "sha256_chain_hash": "79d1ca5f5fb306ad3cece2f2a9ce42c239045c9b2682910c7df0e6a98b3e0576",
+    "sha3_chain_hash": "b2125443afccc35481c8cb225b62aad6c481ccbe3f81e3955887874634af04ec2ed2aea65cac3a0a6545c3556231a38df176f1b7014542d4c3ba4bc8b559e474",
+    "blake3_chain_hash": "4f12ed49625f286a96f7805a59ee753e4f3a9137f9ab155de0e8d382866bc692",
+    "cross_chain_hash": "8b40ac6e16b6c2e5d80184ee80477c28c67c47a60fc81427f01c31b364ab7fda1012fea015ee2ff0fad3867f0f58a2aaad4f447715e1122c4fefab96a9bc4142",
+    "prev_sha256_chain": "710ec4d12fc163fae1f3c0d9af3b73c2c63fdaf03231bdcfe7d35080c5f1f2d5",
+    "prev_sha3_chain": "552680aa0cb37e59270a3ac8a42bcde966c290e9d4ad858ae315afb11c37e6da36bbe9dd09c7d9e9ae09093e1a7ee6bbd426a7e7b12d69961b9508545818847a",
+    "prev_blake3_chain": "1ef0431a06d7c39ca7b4c3167cb131e2e072d8ce8ae41ae5109eeb8b296eb3d7",
     "quantum_resilient": true
   }
 }
