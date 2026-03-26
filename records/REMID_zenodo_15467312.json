@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "ce660197-582f-4e19-be8a-fd55877e6938",
+  "record_id": "e184a4a1-50ad-4e15-be27-24d5866620ab",
   "artifact": {
     "title": "The AI Pioneer: The First Human to Co-Author a Theory of Everything with Artificial Intelligence",
     "author": "reilly, lawrence",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AjUXzbrAo1s1wjwEKZBzmUOtRorZLIM+43BfMYI8CCEop7l2JdtNItDEl93v+eZoWlVYMspo5m4H+DSgkCengjxBGnEwonwCMNQmIqRpk+zAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AiBh6HkKal6ygjwEEWQH0tdUnTfZDnhR2V/kjkI8QRpxMKJ8AhZfEULZLgfDwCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BDV7CQ2bsdZKZawi2gSTUs0CPEEacTCifAIJjebdQAfflgAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:22:17.419447+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/15467312",
@@ -31,18 +51,18 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreicpiwdbbd4p4iukqi4uvwzdjgytka2zvzz2xuknjwn5hw64nbu5cm",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicpiwdbbd4p4iukqi4uvwzdjgytka2zvzz2xuknjwn5hw64nbu5cm",
+      "cid": "bafkreif7j3nfha64vowixsc4ocnpz5kkoaybcz5pgkc7iffyed6grwp4da",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreif7j3nfha64vowixsc4ocnpz5kkoaybcz5pgkc7iffyed6grwp4da",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreicpiwdbbd4p4iukqi4uvwzdjgytka2zvzz2xuknjwn5hw64nbu5cm",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicpiwdbbd4p4iukqi4uvwzdjgytka2zvzz2xuknjwn5hw64nbu5cm"
+          "cid": "bafkreif7j3nfha64vowixsc4ocnpz5kkoaybcz5pgkc7iffyed6grwp4da",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreif7j3nfha64vowixsc4ocnpz5kkoaybcz5pgkc7iffyed6grwp4da"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreiaihw3e224b7hzxjjipqqiugdd7bladbrgq7yv7iwaxbcb32guyae",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiaihw3e224b7hzxjjipqqiugdd7bladbrgq7yv7iwaxbcb32guyae"
+          "cid": "bafkreihkkpdzmizsvrm24so2wcgeopsyodatfe53evenizlirdbwpgzieq",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihkkpdzmizsvrm24so2wcgeopsyodatfe53evenizlirdbwpgzieq"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
@@ -66,12 +86,13 @@
   "restored_from": "zenodo",
   "chain": {
     "block_index": 8,
-    "sha256_chain_hash": "641a7494d7a522ac04d902b7856b69bc83eef0a01e1bb8a04e590ebfdc8c1a81",
-    "sha3_chain_hash": "0bee7344e82c389b3982397eecfa8e896f96ea08ad776eaaa4fad4ecae5097856a6eaf5b259ed29fc34ed3e708b4c9fb0eeb59c6ea30ccee2ecd0ba40b88f96e",
-    "blake3_chain_hash": "f0432f2c6f33559b70f696ff24f3518dbab1d9c1dbfb8166ac2e5de401714a0b",
-    "prev_sha256_chain": "47c59f66c306dce097aeddb6bec10498a412974c3147fd931a1391cbe7a1f13f",
-    "prev_sha3_chain": "4992e1b0cf14711d8a1185df3b0b2d2edde51821f41c5f7e68ec3cb9b545b5bdb6eda7ddb4fa8bf6723b25cacb2ebc088273b84e693bc2d832f7fe2464b8b26b",
-    "prev_blake3_chain": "392779314bf0e771cec574a8fffa4deca77f179746c3d2f7bc551dacfa5d5b2a",
+    "sha256_chain_hash": "5f795c307d45c6f4a9e42ab54c6c8a92cc47c7cbaef19c8eacdd3022c63230a2",
+    "sha3_chain_hash": "7248e3de4cbd0ed77d62ae05ee04ac05e081f19a8cd0161b0f99322ab503987539a90a2eff3e9197ba4af00bd1064d0d928d3f429dc3f236a6f72a450068bf9e",
+    "blake3_chain_hash": "a8ca97c667cd1a37b669093992b3cc1770d938e3e323cb5926f4ba6a7b1af367",
+    "cross_chain_hash": "49289a566d112f869219c161e8b13a8d86d638811f067b5665ba5ef9a3f51e6081f88fc380c4dc83d001c3ce1f82ad757e5aa34c6ceb0023dc7660c582d722c5",
+    "prev_sha256_chain": "213da1103dd404982a70bdd71e0dc88253a86f233a83774a4b86a073e6b76be7",
+    "prev_sha3_chain": "df702edad6535dae7fb2f5940b5a65053b58efa41af08023c44c17d62e444eb8b1a362b41a84982e9c910b89e93b6edfc9b1de1e3ab7570eb535545f2fb1aa6e",
+    "prev_blake3_chain": "7770545e5c5900d855b54532ce0db031082693a2ace2b7a59bd7d9242410529f",
     "quantum_resilient": true
   }
 }
