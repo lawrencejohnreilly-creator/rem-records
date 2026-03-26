@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "177687f2-3b07-424c-a128-baad1f844ed5",
+  "record_id": "aff15942-d1c4-413c-a9b9-e9e5776363b2",
   "artifact": {
     "title": "REM-V Protocol: Eternal Honor for Veterans \u2014 Dual-Layer Preservation with Blockchain Timestamping & DOI Archival",
     "author": "reilly, lawrence",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AjNBOesc6x3LAjwENz3rRjTfXgALAukjIanEGUI8SDES2PKZmKMcNJZyLg56RTiYdA8qEuk1cUB91yMFH8oZAjwIMkiT2xfs6w+VGO61iUU3rkG/bwhhjEvstWITwdkmy9DCPEEacTCgPAI9e4gVPzXX3sAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Ah+g/aBWtsrjwjwEPFtQtx/9Vu3Dbw2coVilGQI8CBPVHwAsIoZn3s7s8XYkIvw5rxuh1AgPGJgIdYy9pBQLAjxBGnEwoDwCP76GzRnrkTnAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BALC/9qMEVT+z3swOsAaPyMCPAgFAeScSTn73eWRkppjp2TgK+1d5THST4gsGLBstL2ew4I8QRpxMKA8AipmHqvzyRB/wCD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ=="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:22:08.348532+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/17129012",
@@ -31,24 +51,45 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreicjeanabbeigughmmbtgo3vifpf6wlytvrawsdij6cv4kqbvti3wa",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicjeanabbeigughmmbtgo3vifpf6wlytvrawsdij6cv4kqbvti3wa",
+      "cid": "bafkreiaftsglrs2kk34rf7sfsjmls2szzrmxmdpkr2v5jfezz2sfhbtaea",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiaftsglrs2kk34rf7sfsjmls2szzrmxmdpkr2v5jfezz2sfhbtaea",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreicjeanabbeigughmmbtgo3vifpf6wlytvrawsdij6cv4kqbvti3wa",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicjeanabbeigughmmbtgo3vifpf6wlytvrawsdij6cv4kqbvti3wa"
+          "cid": "bafkreiaftsglrs2kk34rf7sfsjmls2szzrmxmdpkr2v5jfezz2sfhbtaea",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiaftsglrs2kk34rf7sfsjmls2szzrmxmdpkr2v5jfezz2sfhbtaea"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreiggwakblcdo7ukpmacefbnal36tbemvyp3sylgrqzquxntbgkrj4a",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiggwakblcdo7ukpmacefbnal36tbemvyp3sylgrqzquxntbgkrj4a"
+          "cid": "bafkreievpyqmi5w7hunuprpezvb72jl7euwgej7zhiqu4xqxnd25zoa6xy",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreievpyqmi5w7hunuprpezvb72jl7euwgej7zhiqu4xqxnd25zoa6xy"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F17129012",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F17129012",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F17129012",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F17129012",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/aff15942-d1c4-413c-a9b9-e9e5776363b2/json",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/aff15942-d1c4-413c-a9b9-e9e5776363b2/json",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F17129012",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +103,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 16,
-    "sha256_chain_hash": "36fc2f7771482517087d16ef096acb96dfb78254beedb962f42b22ff89bd81aa",
-    "sha3_chain_hash": "ec9bdc049d528d696995f32c9026d3aa1da0d7d48f6c9e07399a6b906ff19ace5770d3fc494139bc90669eadb4cbc1b179d24692f55c39ceff6f87351dc81073",
-    "blake3_chain_hash": "8921c0978f2f1f07aa187635db7a05f38e0d519f0a05daa7baed40395d646e46",
-    "prev_sha256_chain": "a114413ca9eee8761513de3e269d3ce7ee9d88b9e0682001893b68eaafbb8546",
-    "prev_sha3_chain": "fbb1b1b0c88414a8116b4ad4c39fe68b8c696d3826a420b616a9a4952a88c547d3b9a2a0f98005bc6c9355542d40bed1459b7bc78fd95bbf5f1727155377bd7d",
-    "prev_blake3_chain": "e3f608c9c4a13bbc59b111f869addce50e83da0c666f8887fce0cf865f6c20bc",
+    "block_index": 17,
+    "sha256_chain_hash": "542f2d78c2280b430dbeedea783e837f2b81d20ba050d8785b6058997b56f455",
+    "sha3_chain_hash": "ba661dbb9809d1ff8be90501647595a8072ec2db3ed42a309cb24b2bb8808de83b43c0c6276b8b2f6f7beda3aea37cbec831cbd92df942a9a389483fc65231dc",
+    "blake3_chain_hash": "0c40fccbf5eb41185753b3b1aefef0725e1bcdc3dc5fdd02d30b313527f282d7",
+    "cross_chain_hash": "b3b4b0bc72e85e6ed99949c35cd01f5e86f5faea34f909cc29cae55c047cdfbcd1062876dd779c8d342be51aee8d6c0b76deec1ab17f9170b6fda187b2749a38",
+    "prev_sha256_chain": "27fa030fb3adc434104ebb299e4cf7a24eb3f16bf8227a61aebe3b17949f0c1e",
+    "prev_sha3_chain": "1210128beb549bcbad7bb8449495b67fd89496d572a1ca49bbe6ad33c8fe05afcff7cf48bc791112a97bf45b625da84e693caab5b0717a0bdab66e724e18e0a3",
+    "prev_blake3_chain": "df994440d37574607926268fd7074f5ffa9c5225c74dac633e414d955f1c1b68",
     "quantum_resilient": true
   }
 }
