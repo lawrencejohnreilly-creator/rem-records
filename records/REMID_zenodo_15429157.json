@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "2599a9dc-b48b-4d97-a4b7-56baf379fb70",
+  "record_id": "ab131b10-6fdf-469e-8803-ea70180786a5",
   "artifact": {
     "title": "The Reilly Equation and Vine Theory: A Unified Framework for Emergent Gravity and Observer-Based Reality",
     "author": "reilly, lawrence",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AgjS8ZSMYyrnQjwECCnF/UH8r4ck4BIORzTZ0II8SBKhlL+WRCuygaHW/Pjwzrqnc/osCANrkkSiaLdR4VlRQjwINPLExb6XbZDurXIsaV/xKixHVmCSrIWBARSTI8+FrvbCPEEacTCkPAIlZ972Uga3mcAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AgjVEFeTAPFLAjwEOw7BP+5gM7q8N49dvghs4YI8QRpxMKQ8AgHnXPOV8cotACD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BA0hQde2z07hFaeLZgjrG3/CPAgDyl0hbW/F8mUJdFZYzkA8s8sXDUS1DPpZ2+VPr6h7jMI8QRpxMKQ8AiyzKINlLLuIgCD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ=="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:22:24.431401+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/15429157",
@@ -31,24 +51,46 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreihteqh2r4itvm6htd2k2dkir26otfl6il4dtd7smeiofkhv7fguyu",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihteqh2r4itvm6htd2k2dkir26otfl6il4dtd7smeiofkhv7fguyu",
+      "cid": "bafkreiczs3yjp3ijkdrzxcgabqfgzztawoqyx4744gzu345ugmdftr2wqy",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiczs3yjp3ijkdrzxcgabqfgzztawoqyx4744gzu345ugmdftr2wqy",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreihteqh2r4itvm6htd2k2dkir26otfl6il4dtd7smeiofkhv7fguyu",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihteqh2r4itvm6htd2k2dkir26otfl6il4dtd7smeiofkhv7fguyu"
+          "cid": "bafkreiczs3yjp3ijkdrzxcgabqfgzztawoqyx4744gzu345ugmdftr2wqy",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreiczs3yjp3ijkdrzxcgabqfgzztawoqyx4744gzu345ugmdftr2wqy"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreid6ljjwuk6hzjyny5tlnglvbtgqapk4d7y4xys5wovw4ft53muaom",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreid6ljjwuk6hzjyny5tlnglvbtgqapk4d7y4xys5wovw4ft53muaom"
+          "cid": "bafkreih7j3oarjbthzt7w3cyyf7unr22ddexogwhrnrzldd5acrs3z6qpm",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreih7j3oarjbthzt7w3cyyf7unr22ddexogwhrnrzldd5acrs3z6qpm"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F15429157",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F15429157",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F15429157",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F15429157",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/ab131b10-6fdf-469e-8803-ea70180786a5/json",
+          "status": "failed",
+          "error": ""
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F15429157",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +104,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
     "block_index": 1,
-    "sha256_chain_hash": "3b59441e1bcb03579f4f10862de8c7a01b7bec16d442a0776146e8e1073d58ca",
-    "sha3_chain_hash": "e462536cc608503d9d8ecf3e3af9a02a31ea58b11bc15906e47b4afc4cc7571d3dfa3cdd4524c2894fffa18662f0deee6d9931ff2bd2c1207fb3e40e16d294ae",
-    "blake3_chain_hash": "b765f837d20499e9a9a3589f7430f326d37453c79f536e87a8c37f40fbefbbe3",
-    "prev_sha256_chain": "8188930bb2cc2c474f0e172ca0d39edcaf871f5c2096d1ea5542645d90bc847c",
-    "prev_sha3_chain": "2f38d1ce8547dc4ade3646920cbe8900cd698132d3c77b2b8126dde71fe45e2484638a8a7f28801a7778f1807b4379fd837848752d1e67b18b18777e7aeedde4",
-    "prev_blake3_chain": "f826c035f34b6f8cd797483f47b2ab3b2115a2f1235ae7ec7f4a7bbc43078145",
+    "sha256_chain_hash": "4cb6e61c03c6d16a9df42a0e99a5a3c287b51ae789a201e3e2cd3b0ab551f3a5",
+    "sha3_chain_hash": "cb9449fac6050b899133b3512617c1473ebda5147820dad0ec0326460ea1e4ff9eb7374bfe390f030a23f94fc1a51f5e3cdc540c53b337b48c83595f573a877c",
+    "blake3_chain_hash": "61f5dfc6aeff6b1ad38e8e1f73f593f8ce69c5b45276b611dc4bea7b6ffc3f06",
+    "cross_chain_hash": "4da7d682975662ea30db2bdf24c135ded4ac5cbbbe3e50ea2410219ebe0ea28faa0153c9721f6e070adc8248c04381ba9ee1521df4f6cf3f255737b0c14c1b63",
+    "prev_sha256_chain": "f641ec6f17b595392cd000dc8fb1296ceb01eadf95b2ae5630655395dba6d3ce",
+    "prev_sha3_chain": "53298e0e3c21721692c19d2392e1297fe2cc02050289f8c32d47c16156ca96ddd939acd341bf8ba5c6143866f7700e5dfd16ffbd331e986f5a91bfed57bc990a",
+    "prev_blake3_chain": "852ea73832d445de21ac1564a315cd4a95dbadaf8aa5d902414f746aa93d3acf",
     "quantum_resilient": true
   }
 }
