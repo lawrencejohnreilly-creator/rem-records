@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "2d90b691-96eb-4037-ad34-b90f666995a3",
+  "record_id": "b1b5203e-61f6-4bd9-9ee0-0a078ec20cae",
   "artifact": {
     "title": "Initial Blake3 sha256 sha3_512 testing",
     "author": "Lawrence Reilly",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AjzdhS1EtMoUwjxIOMoWV5Gx359F5MdLOI4dmnieYN70iAQI4ByNt+RDlHeCPAQfQTP7d2rOAAPiyw/L3cefgjwIMy2ag+Gu4gC0G7J5nMg7b4mBjSPR9Acr00OGxxa6DYuCPAgiydujat/wW/GLW0mE35PeosSq0pImYdbF9Q4lJUvlzMI8QRpxMJs8AiMqkdBE2UH/gCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Ah2kpz0YGZItwjwEO7UcAiMT4bTDn7BZeT/sjkI8CBCfVJ0SegdvrREG6scSktZb6f7bbz2wIY0cHdBzcnpPgjxBGnEwmvwCOrwk5E4buDSAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BBrHhcdQFx7VJhVMqQnNKRsCPAgI2hSuIBeUqiClMJuBp/XFFVYdrbGeDW+oPrArZ4KvtYI8QRpxMJr8AgIZupb/iv09gCD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ=="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:21:48.144934+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/19164155",
@@ -31,24 +51,45 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreievouctqkuri7vaod33dy3zwduys6o3pz6iknamuh6xupktkagspy",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreievouctqkuri7vaod33dy3zwduys6o3pz6iknamuh6xupktkagspy",
+      "cid": "bafkreicvqsz2qu76e4xt2t6izywo4z7auvlfbvkd7hyuw57ud4l54c5tiy",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicvqsz2qu76e4xt2t6izywo4z7auvlfbvkd7hyuw57ud4l54c5tiy",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreievouctqkuri7vaod33dy3zwduys6o3pz6iknamuh6xupktkagspy",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreievouctqkuri7vaod33dy3zwduys6o3pz6iknamuh6xupktkagspy"
+          "cid": "bafkreicvqsz2qu76e4xt2t6izywo4z7auvlfbvkd7hyuw57ud4l54c5tiy",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicvqsz2qu76e4xt2t6izywo4z7auvlfbvkd7hyuw57ud4l54c5tiy"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreihfcjews5nxgshiucrwn7jos6vugi5q6f4eao3qf5y7qpntyb4t34",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihfcjews5nxgshiucrwn7jos6vugi5q6f4eao3qf5y7qpntyb4t34"
+          "cid": "bafkreihdme3ftscecy3remgoobnvj2mbv57jqulrn4z2j523ljgofmfi6u",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihdme3ftscecy3remgoobnvj2mbv57jqulrn4z2j523ljgofmfi6u"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19164155",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19164155",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19164155",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19164155",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/b1b5203e-61f6-4bd9-9ee0-0a078ec20cae/json",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/b1b5203e-61f6-4bd9-9ee0-0a078ec20cae/json",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19164155",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +103,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 36,
-    "sha256_chain_hash": "40c2721a6f17b27ecc43fe850a8886b11c39f06a38508341d6301b3203231ff9",
-    "sha3_chain_hash": "45eab46fd9c88ddb0162d129be1f787a598579d63863a23fe5224e89b964c73759cbae79373dd0c5acda79d5f50707622a88ad7d021075c28455f4452727313a",
-    "blake3_chain_hash": "ac6c66ad90dfc4cc07004308ea5d6b0ec05ba596255e4f719a40899ba06d9d1c",
-    "prev_sha256_chain": "42dfc3f88c603de54321f9ec83d8c10a5632cb8daddc1571d7a0555562ba3679",
-    "prev_sha3_chain": "f0f77605e33498ddcce3492fb65f8a5f5f803dd07ee242a8294b6b1ea43d58c581b614266b85faf4543340896c7ac43a4af5abc9c5d5677193a339f6c402fc0b",
-    "prev_blake3_chain": "61df6ae6d12c03e961ceeff0488cbaa80cc9c4eae5ad8280545592fb7740c3d5",
+    "block_index": 37,
+    "sha256_chain_hash": "08bfe2915e3b5f0d7d70695dbbca04f11ce0d906c9f4149a96d4b876b8c1fd1a",
+    "sha3_chain_hash": "9137b53acf6aedc20124bd3c9d89178e346611bc0f773de1f59c9843e761d16820d923d24d7e8c0af7e2e5c62072bfbb64a4d511bb12629a5cb0e6b3d4a69cab",
+    "blake3_chain_hash": "5e17b52ffc8a8aa52c93a6938ffedc8e8f466b8311fbf4589f52a8846c4b843f",
+    "cross_chain_hash": "59c81b5fb380fac5a17b6bc465a52d1218483596cd2c87f8cbb2256bbed0b1b537c0cada43c831a3f2d2398dc3600f7d4a4317cb7558c22ca0b481abe7df69ef",
+    "prev_sha256_chain": "15fcc3948bacf0624d3b08f1c10d8fe8b0b4ad0507f552a3f3b7c3aaf68376d1",
+    "prev_sha3_chain": "64cbf7bf0b15fe424a59a61902ae9340a908ea74c3cbfa0aa96827de3861c4aeb87d875ab54a2206076e1484dcbcfb8ced1d4d47b6b5f2a82c4f6788b2f76ca6",
+    "prev_blake3_chain": "a36ac9d98da5701baf8c9a818badf806f14f616c7a2d0dc50f4d64a53793a4b6",
     "quantum_resilient": true
   }
 }
