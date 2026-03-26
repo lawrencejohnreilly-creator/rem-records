@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "8c51b84e-52c0-45a5-a71c-108c8de5a019",
+  "record_id": "70c2871a-3cec-4e54-9c5f-612acfbaf84f",
   "artifact": {
     "title": "REM-Aero Protocol: Blockchain Timestamping + DOI Archival for Aviation Safety, Compliance, and Provenance",
     "author": "reilly, lawrence",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AgvEHwawzP5ggjwEL/U6IkBHxZmMX0gpMcuNkkI8SCFBB8VDT6Xo4VJeeXKKos6dXcTl8JHPZxlrBP3BOGUgwjwIGmS+16ef8E4Inr8kmTs1d+GGFcSXaLN1lKfFQZbSrt6CPEEacTCf/AIVa9DLaCSZtIAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AixL4FUTYmingjwEGIfoDnGKMNX/vtXnjrxs+wI8SAdcnwkKLsallIt63lAn4XaF6IAK8D++2krzvvOfhZuJgjwIAAAXHB1mWqTDxDYgCWbOxMx5mM7F3IsUq2bFjGD5urkCPEEacTCf/AIKIeT0flURcIAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BBeE7rNj8YRoAH+5TgcY/QvCPAgN3N3Vbjq15qxRy8+fu3tlDV71sOhcXEl87Z++biSkXoI8QRpxMJ/8AgU6TkzS2OLagCD3+MNLvkMjiMiaHR0cHM6Ly9idGMuY2FsZW5kYXIuY2F0YWxsYXh5LmNvbQ=="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:22:07.345570+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/17137281",
@@ -31,18 +51,18 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreihbobozelf6vqbnei2j6ju5x43huxbjyxc47z77qqjsubvifxwm4a",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihbobozelf6vqbnei2j6ju5x43huxbjyxc47z77qqjsubvifxwm4a",
+      "cid": "bafkreigyohym5new7aunrmrd5qgwdgydeififglkt2c45x2yrorcsf756y",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreigyohym5new7aunrmrd5qgwdgydeififglkt2c45x2yrorcsf756y",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreihbobozelf6vqbnei2j6ju5x43huxbjyxc47z77qqjsubvifxwm4a",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreihbobozelf6vqbnei2j6ju5x43huxbjyxc47z77qqjsubvifxwm4a"
+          "cid": "bafkreigyohym5new7aunrmrd5qgwdgydeififglkt2c45x2yrorcsf756y",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreigyohym5new7aunrmrd5qgwdgydeififglkt2c45x2yrorcsf756y"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreielnhghkmek3a4fuvvbigxaca7o5m37n4beydl6xvdkdhky772lgq",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreielnhghkmek3a4fuvvbigxaca7o5m37n4beydl6xvdkdhky772lgq"
+          "cid": "bafkreigu6hmvknchafxt5g3523tinnohpndma6qiie5kmiwl3ieju5jgce",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreigu6hmvknchafxt5g3523tinnohpndma6qiie5kmiwl3ieju5jgce"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
@@ -65,13 +85,14 @@
   "status": "restored",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 17,
-    "sha256_chain_hash": "0b319de2bb302df541cde391cb2673741b243f4f7f2225c542dd7967fd25a1ab",
-    "sha3_chain_hash": "3e2766bcf23e7eeef57069ecdcd8c5361d2ac91fdfd9596a7bd919702b1521f8543ed8a4198931167c9d4bd91758767e1f002d64ccd46dd0682a0e204105d536",
-    "blake3_chain_hash": "7d1d4121134481adaed17b70f9907dfc426dd4bb1e201a1d2e2fb4e325b173ef",
-    "prev_sha256_chain": "36fc2f7771482517087d16ef096acb96dfb78254beedb962f42b22ff89bd81aa",
-    "prev_sha3_chain": "ec9bdc049d528d696995f32c9026d3aa1da0d7d48f6c9e07399a6b906ff19ace5770d3fc494139bc90669eadb4cbc1b179d24692f55c39ceff6f87351dc81073",
-    "prev_blake3_chain": "8921c0978f2f1f07aa187635db7a05f38e0d519f0a05daa7baed40395d646e46",
+    "block_index": 18,
+    "sha256_chain_hash": "03cd857613a4fa0c4a51239550f962a4568ecf87111923169225ee44586a3eeb",
+    "sha3_chain_hash": "eb1fd97ccbb72ff80c095ced42dc3b69106d8bbfa52575a049391c971df4356a74d1d141dddb857fa700c084a547cb70be9e535ecfb62ded9c4a5d197df53f86",
+    "blake3_chain_hash": "5a1f12b4a9f1f6dc36a79ecfabfe31a9b1009505ace368f4c9bf0409511c97af",
+    "cross_chain_hash": "46d14a99d3246b2765a39ede79b4b77125255a9b6fd7a059b57ec73922bf3e6c4e44d0e1ba2c09ca789da5d50fb8d5de77857328438e20ae1fde04fc808c57cb",
+    "prev_sha256_chain": "542f2d78c2280b430dbeedea783e837f2b81d20ba050d8785b6058997b56f455",
+    "prev_sha3_chain": "ba661dbb9809d1ff8be90501647595a8072ec2db3ed42a309cb24b2bb8808de83b43c0c6276b8b2f6f7beda3aea37cbec831cbd92df942a9a389483fc65231dc",
+    "prev_blake3_chain": "0c40fccbf5eb41185753b3b1aefef0725e1bcdc3dc5fdd02d30b313527f282d7",
     "quantum_resilient": true
   }
 }
