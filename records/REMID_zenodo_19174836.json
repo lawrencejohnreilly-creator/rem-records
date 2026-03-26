@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "e15a0573-60ad-44ea-8f5f-a7a89bdfd16c",
+  "record_id": "88b9a6cc-a1d3-4b84-884b-159f98bfe7f5",
   "artifact": {
     "title": "test",
     "author": "Lawrence Reilly",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Ag7TbsytrBfBwjwEELHMAZNfC6BdBP5TN0G/W4I8SAxDgdkbxWDV6lqA5JvWitgN5uhzB2c8Mj0cfZj+nGOoQjwIKazIzqsWItdv5xWpnS3COWjh8gnEtMY7uH+i5oJeLv0CPEEacTCZPAIyuQ7PxvLI5UAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AhX4UL4XhQlEAjwEH6Of/IGGms60YAL8levdWII8CCFMA5YITYC386CoCtD+YSdTBbPWnpLQ77ELHsLfAcRhgjxBGnEwmPwCEw48iuGjOpOAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BBJDzCBY4805DQJQQhwBCjECPEgGuOUrkAwQe/bwWVaGzwxiWRcTvx2jwkrluZXeqm1UwwI8CDBXurZm8E1AnKR4Ya/2vT2SpOvkwIFUkRThAZcboGCugjxBGnEwmPwCHUrH5p8+kGzAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t"
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:21:40.127212+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/19174836",
@@ -31,18 +51,18 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreid4tk3et53aq4evnx2v3jn6ah3wommnaqs3mbjdvzvrwb7iqehr6e",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreid4tk3et53aq4evnx2v3jn6ah3wommnaqs3mbjdvzvrwb7iqehr6e",
+      "cid": "bafkreicgbm2nwncxhtsemowteg55murksvltdkvcnm237lydmr4z4rmpzq",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicgbm2nwncxhtsemowteg55murksvltdkvcnm237lydmr4z4rmpzq",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreid4tk3et53aq4evnx2v3jn6ah3wommnaqs3mbjdvzvrwb7iqehr6e",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreid4tk3et53aq4evnx2v3jn6ah3wommnaqs3mbjdvzvrwb7iqehr6e"
+          "cid": "bafkreicgbm2nwncxhtsemowteg55murksvltdkvcnm237lydmr4z4rmpzq",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreicgbm2nwncxhtsemowteg55murksvltdkvcnm237lydmr4z4rmpzq"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreigcsq2rnvqmj3pfm5zh5ww33rvbbd24ijkux777gbdpywjb5gtsb4",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreigcsq2rnvqmj3pfm5zh5ww33rvbbd24ijkux777gbdpywjb5gtsb4"
+          "cid": "bafkreidnt7qpquwddo42f6eattat3t6qdd46kudg2tceez6pcvh3tfazi4",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidnt7qpquwddo42f6eattat3t6qdd46kudg2tceez6pcvh3tfazi4"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
@@ -65,13 +85,14 @@
   "status": "restored",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 44,
-    "sha256_chain_hash": "77f023ed766ab42fe29fefe85517ca5727d25cad365975abc4d3ba8a0030bd65",
-    "sha3_chain_hash": "e885527959bd1f7998753c04fd8bbc9725ad566c90c2dd12f7c07f6d4ac489a627e29e04940da7ac21ada756719f18e503d4b1f9be549567fa424150cbd42eaf",
-    "blake3_chain_hash": "684ebccd115197e495dbc273e5cf0bcc22f8cd6279b6fca23f9b801734dc299b",
-    "prev_sha256_chain": "b5a9d59f813f0033cccb7f12cd6fd874e6483e8bad5c7af879e8a9ecde263946",
-    "prev_sha3_chain": "a513076761536e625de5f62178c4df1c17c302025b573a43465093c43dc0178e7e9c4ff058771f2c320db933d3ba0834156be0ec33e1e7339943285a14b8b90f",
-    "prev_blake3_chain": "4823a967df47b75823bf99f7f7b2f78d535772795adaec05abcfae3ce1cf45aa",
+    "block_index": 45,
+    "sha256_chain_hash": "fe6ce65e2c231c1e8cd7f8557bc834ae51a12aa295977aa3a31c3985bffc3ac9",
+    "sha3_chain_hash": "71cc9586921b095fcee5f58cb8e276f55949c5c6079f26d3b5de3240e03eab54fcd4319c9f7c2b4876d5bab5729ee40138b988cc376e09f0860e070cc3448014",
+    "blake3_chain_hash": "6216c41c1e14c647dc029b8d8df5383c87d587b0156ed42730923614e0de6126",
+    "cross_chain_hash": "f19eca9967fd2db34526a71700028a70398eaa468b123c0d66400b386696ec8ef1ffd07c0bba2ad8963f3a98d82c6b8fe1d5e1f546ddece3f920121db7dde956",
+    "prev_sha256_chain": "336f0d780c233a6cb0b1a54c088e2cf6cbcd1e867b619dcc5801bace99ca7f98",
+    "prev_sha3_chain": "71b92fcf0ee546630d18358509428a80f969ebd51d05cbfefa2bd6c02bb22d90b86a4e57a4792acb5d657245df8e1ae1bad0ffed857087e839675144d2013c1f",
+    "prev_blake3_chain": "d7e33f1c1d981f448ceae5cb7b0caffdc810a1a80f66419e297dc73edc921132",
     "quantum_resilient": true
   }
 }
