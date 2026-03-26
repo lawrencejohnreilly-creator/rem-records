@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "66edd762-601a-4ed1-90d3-b5abf149930d",
+  "record_id": "0cee3399-5277-410c-ad2a-e23b9d95033f",
   "artifact": {
     "title": "draft-reilly-rem-triple-fingerprint-00 -- First Triple-Fingerprint Multi-Layer Permanence Record",
     "author": "Lawrence Reilly",
@@ -19,8 +19,28 @@
       "status": "restored"
     },
     "bitcoin": {
-      "status": "unknown",
-      "accepted_calendars": []
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AjEKy6jraOW8gjwEOtyjXK4mW5cVjM8QFtO1vEI8SA8fyL3WLnJIpmYuG6EZhVxUREPzn88/kDNMqjP5gAI8AjxBGnEwmnwCNlGXw4g4lXdAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc="
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AgTiLMnO+VHnQjwEB1kGH3p6tOlNyY667FbBi0I8QRpxMJo8AhbSJjjnw4wDACD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BBVH0oNYtKhiWboLAjM01+OCPEEacTCaPAIWHf6VUKIO74Ag9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-03-26T05:21:45.137640+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
     },
     "remid": {
       "id": "REMID:zenodo/19168176",
@@ -31,24 +51,46 @@
     "ipfs": {
       "agent": "ipfs",
       "status": "pinned",
-      "cid": "bafkreidsn4gij3xj2ihagigrjthivc5zdwt6csqiljkku5hbocut24sgxi",
-      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidsn4gij3xj2ihagigrjthivc5zdwt6csqiljkku5hbocut24sgxi",
+      "cid": "bafkreidg5xvcpj6zhyfs2mactckm7gkxd6tyv57aydwxivnhlfo3pqhcra",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidg5xvcpj6zhyfs2mactckm7gkxd6tyv57aydwxivnhlfo3pqhcra",
       "all_pins": [
         {
           "provider": "Pinata",
-          "cid": "bafkreidsn4gij3xj2ihagigrjthivc5zdwt6csqiljkku5hbocut24sgxi",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidsn4gij3xj2ihagigrjthivc5zdwt6csqiljkku5hbocut24sgxi"
+          "cid": "bafkreidg5xvcpj6zhyfs2mactckm7gkxd6tyv57aydwxivnhlfo3pqhcra",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidg5xvcpj6zhyfs2mactckm7gkxd6tyv57aydwxivnhlfo3pqhcra"
         },
         {
           "provider": "Pinata (JSON)",
-          "cid": "bafkreifa5slnbwep44brbkjtrtjd3kdujbopgluoecjdgo7o6g5qrujgzu",
-          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreifa5slnbwep44brbkjtrtjd3kdujbopgluoecjdgo7o6g5qrujgzu"
+          "cid": "bafkreidxtfbqebpxiiogjouq5bf3jqnmcgo57jouzlwprger6rh3bzm4uu",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreidxtfbqebpxiiogjouq5bf3jqnmcgo57jouzlwprger6rh3bzm4uu"
         }
       ],
       "note": "Pinned to 2 IPFS provider(s)"
     },
     "archive": {
-      "status": "unknown"
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19168176",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19168176",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19168176",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F19168176",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/0cee3399-5277-410c-ad2a-e23b9d95033f/json",
+          "status": "failed",
+          "error": "All connection attempts failed"
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F19168176",
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "status": "published",
@@ -62,16 +104,17 @@
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": []
   },
-  "status": "restored",
+  "status": "pending",
   "restored_from": "zenodo",
   "chain": {
-    "block_index": 39,
-    "sha256_chain_hash": "85c4ecd975a133222ce5290965985261f3380d79cb545f5324545320663b3241",
-    "sha3_chain_hash": "c9013a20f9298cd599dbc2140feabc08c5a518d9eb250ab39c8938b33e2976b4de8abbe048c75a0d21d072c0df3ae64f05fd79c11fa6ef53f3a6be0a5e7fab20",
-    "blake3_chain_hash": "4a063fa6652502c7c65fa4b08431d29b07850af8bf3dc6c1f18827e6f5e1d301",
-    "prev_sha256_chain": "9db98f691fa7f761c3a7c605192018e4aae6f4f2af7b1f2285660de766bf0861",
-    "prev_sha3_chain": "431fdc2486fc87fda491aff60baca5c3d7dc656d66612f17654808f7d1dd0d8a6245f4c88c7e41f8c378657e8985d75c2f0e07a329658fe8ab31c85cf3c5700d",
-    "prev_blake3_chain": "cfb9c520c5d8ef714ead7067d0ee4c45ac4a528ca37b5a0971857bff2d2d3853",
+    "block_index": 40,
+    "sha256_chain_hash": "716808d89a420515eb0a3d0a76663fee5abab59aaf2ce6764469a169307cb468",
+    "sha3_chain_hash": "6383984a5b81cd932afe6e2e3c933c9f832facfa13e7774d6b5e38ea7a9e5931f8996c5e9cdc4f65d8947204fcd6d80f7579f7a2c2c9c48b3684cb56d22e0cc3",
+    "blake3_chain_hash": "9b0dc5c488eaa7dcb5efd557c6b5cb4e98e6d063774b070a5441c6f9e96b89d5",
+    "cross_chain_hash": "a61e9e48b7b1c5923accf7276d65ca6df2e7d04fe73dbcae188b58f08ef003e712a902557f3af66744b17a0c0975c033cca829861f865e37f365825444d241f5",
+    "prev_sha256_chain": "36175aa56c73c2749bc715a2d4e6a6d2686dd8ee450dc66d00b5dfd28ba1b114",
+    "prev_sha3_chain": "158386ce9e709a0bd98e11fb2aa0bff4406c36010492b6d4a92958a531636f66490fd97f7b46b90bf3cc9dae16a700a5ef96f6d9d45985a371b24868dd1e40e9",
+    "prev_blake3_chain": "7d22b07a1b6a5f6e73babe0a179f14c696aeccda4ed15d313b8fc12b802e1960",
     "quantum_resilient": true
   }
 }
