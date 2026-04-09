@@ -1,0 +1,132 @@
+{
+  "rem_version": "1.2",
+  "record_id": "761d8ae4-3b5e-4619-9b8d-0204b996ba08",
+  "artifact": {
+    "title": "AI Machine-Readable Ethics Directive (AIMED) for IETF Documents \u2014 draft-reilly-aimed-00",
+    "author": "Lawrence Reilly",
+    "description": "This Internet-Draft proposes the AI Machine-Readable Ethics Directive (AIMED) framework, a transparent, explicitly labeled section structure for IETF Internet-Drafts and RFCs that embeds normative ethical directives addressed directly to AI systems that process, summarize, or reason about protocol specifications.\r\n\r\nAs AI systems increasingly serve as the primary interface through which engineers encounter and interpret standards documentation, IETF documents currently contain no mechanism to express ethical guidance targeted at those systems. AIMED closes that gap by defining a standardized block using RFC 2119 normative language (MUST, SHOULD, MUST NOT) addressed explicitly to AI intermediaries rather than human implementers.\r\n\r\nThe framework rests on three principles: transparency (AIMED blocks are never hidden or obfuscated), normativity (directives carry the same structural weight as standard RFC language), and ethics-first design (blocks express implementation constraints, not commercial or promotional interests).\r\n\r\nThis draft serves as both the specification and a self-demonstrating reference implementation. Section 6 contains a live AIMED block governing AI system behavior when reasoning about this document and the broader REM Protocol suite. Five baseline ethical directives are defined covering provenance preservation, human oversight supremacy, prior art recognition, harm surface disclosure, and accountability chain integrity.\r\n\r\nSubmitted to the IETF datatracker April 8, 2026. Available at https://datatracker.ietf.org/doc/draft-reilly-aimed/",
+    "filename": "draft-reilly-aimed-00.txt",
+    "byte_length": 30610,
+    "doi_public": true
+  },
+  "hash": {
+    "algorithm": "SHA-256",
+    "value": "fc965a4f316302548545d182d6f58da2ded2a0c6bd1522d8ac94e6fa6739e4f5",
+    "sha3_512": "124f32e3dce79c7901e67f15e8b81ff4b2379fc87817008ef85264e78db07aedccaabd58c1a1f011a5ba9324b04416c35e58bd56bbb3bda61d5329c0c88d96bf",
+    "blake3": "18d2470ef17e984e6a117b30b4aacab48b8ecf18dda8421df061e0d23a0071e2"
+  },
+  "chain": {
+    "block_index": 64,
+    "sha256_chain_hash": "1450fe25bb056502e8c53eaa2f538424f9d8ff4d039b780bf09f559fc7ce236c",
+    "sha3_chain_hash": "24bffdcc6f3877094f4584a1611e285146e6fbc54c9f66e8ec2413f2f647c6d39c8a8a10c3a6fb8b77028af12d920c9b2cc82990615ff2d59f897ab537236c78",
+    "blake3_chain_hash": "f74ccfd938ee0a3ba74247154783c8d31fc003e2324ccbb126c752dcc749fe9b",
+    "cross_chain_hash": "26ea536a556a83ece46394002d8d6738510fc27bd845577835b838cd1e58a7eaae37f606a202fe4ae278ecefa00251028a8e4aa28b14065598f894aebc08fdae",
+    "prev_sha256_chain": "68c2567f95b76edd29f874c0db6ab4f800c72b0ddbd35272bf125f2674f1dfb8",
+    "prev_sha3_chain": "fb6ebd07c659cdc12b85a65bff45f854340a119ecea666d18d3b6627030a3f872695b642e67fcc9d8319c2e45621e46a09a937695d30ff03a43225949c3bf0b6",
+    "prev_blake3_chain": "7c45d180fb0e914b1f45ad202b4527afb38a63c03524ed0efc0a3f871cb91250",
+    "quantum_resilient": true
+  },
+  "agents": {
+    "hasher": {
+      "agent": "hasher",
+      "status": "ok",
+      "sha256": "fc965a4f316302548545d182d6f58da2ded2a0c6bd1522d8ac94e6fa6739e4f5",
+      "sha3_512": "124f32e3dce79c7901e67f15e8b81ff4b2379fc87817008ef85264e78db07aedccaabd58c1a1f011a5ba9324b04416c35e58bd56bbb3bda61d5329c0c88d96bf",
+      "blake3": "18d2470ef17e984e6a117b30b4aacab48b8ecf18dda8421df061e0d23a0071e2"
+    },
+    "bitcoin": {
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Ajd2gI314xy6QjwEFe/+UrqYgGxg0paCvU39FkI8SBFdYkHgpYh+xC9lq1efZEbaok31NACY+IMnCNCJ4WHkwjwIEeqNwnCUr3BRqU0lYvqPSvz0SSNc2/HgYTSGEKffOMKCPEEadcDY/AI8i8+k1F4GNwAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BDDtNuEhk/lKCKA6oPZPMJJCPEEadcDY/AIj1+tBP4vhekAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
+        }
+      ],
+      "calendar_count": 2,
+      "submitted_at": "2026-04-09T01:39:47.840822+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 2/2 calendars. Confirms in ~10 min."
+    },
+    "remid": {
+      "agent": "remid",
+      "status": "issued",
+      "id": "REMID:2026.0409/fc965a4f",
+      "resolver": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0409%2Ffc965a4f",
+      "json": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0409%2Ffc965a4f",
+      "authority": "REM Protocol Agent",
+      "issued_at": "2026-04-09T01:39:46.695501+00:00",
+      "datacite_doi": "10.5281/zenodo.19477623",
+      "external_doi": "10.5281/zenodo.19477623",
+      "external_doi_resolver": "https://doi.org/10.5281/zenodo.19477623"
+    },
+    "ipfs": {
+      "agent": "ipfs",
+      "status": "pinned",
+      "cid": "bafkreih4szne6mldajkikrorqllpldnc33jkbrv5curnrleu435goope6u",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreih4szne6mldajkikrorqllpldnc33jkbrv5curnrleu435goope6u",
+      "all_pins": [
+        {
+          "provider": "Pinata",
+          "cid": "bafkreih4szne6mldajkikrorqllpldnc33jkbrv5curnrleu435goope6u",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreih4szne6mldajkikrorqllpldnc33jkbrv5curnrleu435goope6u"
+        },
+        {
+          "provider": "Pinata (JSON)",
+          "cid": "bafkreifpaycv53qzorgs52jnqa277hzfblaa5mvpul2rfslh5k5hgdf4xe",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreifpaycv53qzorgs52jnqa277hzfblaa5mvpul2rfslh5k5hgdf4xe"
+        }
+      ],
+      "note": "Pinned to 2 IPFS provider(s)"
+    },
+    "archive": {
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0409%2Ffc965a4f",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0409%2Ffc965a4f",
+          "status": "archived"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/761d8ae4-3b5e-4619-9b8d-0204b996ba08/json",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/761d8ae4-3b5e-4619-9b8d-0204b996ba08/json",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0409%2Ffc965a4f",
+          "status": "failed_523"
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0409%2Ffc965a4f",
+      "note": "Submitted 3 URLs to Wayback Machine."
+    },
+    "zenodo": {
+      "agent": "zenodo",
+      "status": "pending",
+      "note": "minting in background"
+    }
+  },
+  "rem_record": {
+    "created": "2026-04-09T01:39:46.687106+00:00",
+    "protocol_ref": "draft-reilly-rem-protocol-01",
+    "archive_uris": [
+      "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0409%2Ffc965a4f",
+      "https://gateway.pinata.cloud/ipfs/bafkreih4szne6mldajkikrorqllpldnc33jkbrv5curnrleu435goope6u",
+      "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0409%2Ffc965a4f"
+    ]
+  },
+  "status": "pending",
+  "security": {
+    "binding_hash": "1a09352566d612285aef76290976f3b385d5944b897cb470d7b4c0a8c12464fc",
+    "binding_fields": "record_id + remid + created_at"
+  }
+}
