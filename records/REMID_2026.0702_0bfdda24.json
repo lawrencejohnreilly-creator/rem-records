@@ -1,0 +1,135 @@
+{
+  "rem_version": "1.2",
+  "record_id": "0856b47e-5eab-47a8-9ab2-771b4c4f85be",
+  "artifact": {
+    "title": "Machine-Web Symbiosis (MWS): An Architecture for Autonomous Agent Maintenance of Web Permanence and Integrity (Internet-Draft: draft-reilly-mws-00)",
+    "author": "Lawrence Reilly",
+    "description": "This document defines Machine-Web Symbiosis (MWS): an architecture in which autonomous AI agents and web infrastructure sustain each other. Agents continuously verify, archive, anchor, and cross-reference web resources across six independent permanence layers, including Bitcoin blockchain timestamping via OpenTimestamps, DOI-registered institutional archival, IPFS content addressing, and public web archives. The maintained record in turn supplies agents and all downstream consumers with verifiable ground truth: cryptographic proof of what existed, in what form, at what time.\r\n\r\nMWS formally unifies the protocols of the Reilly Protocol Suite, including the REM Protocol (Dual-Layer Digital Permanence), the REM Triple Fingerprint (SHA-256, SHA3-512, BLAKE3 content identity), WebProof (web content attestation), and the Cognitive Trust Stack (verifiable AI agent behavioral provenance), into a single layered architecture. The specification defines a complete ten-stage implementation process from artifact ingestion through continuous verification and repair, the MWS Record format, agent behavioral provenance requirements, and a multi-operator attestation model as the path from single-operator deployment to distributed infrastructure.\r\n\r\nThe term Machine-Web Symbiosis is coined by the author and first documented in this specification, extending the symbiosis framing of Licklider (1960) from the human-computer pair to the pairing of autonomous agents with the web itself. Submitted to the IETF Independent Submission stream as draft-reilly-mws-00. IETF Datatracker: https://datatracker.ietf.org/doc/draft-reilly-mws/",
+    "filename": "draft-reilly-mws-00.txt",
+    "byte_length": 55716,
+    "doi_public": true
+  },
+  "hash": {
+    "algorithm": "SHA-256",
+    "value": "0bfdda241fc2a62a02f984f2b6b73a35d852904c61f0a44ac27aabc23d13639e",
+    "sha3_512": "5ee356dcaebd1bb121859d88937debdc41ffa17c42d16105bd8964a390c18c8e3f8ad1775c0cf27f067e12e014350c76a4ca17e8526b907550902ec3bfbacf35",
+    "blake3": "17d0027bbe54ba687df7c9eb5a31aa5e59f1e09b9a7dbcca6be4543a0b02feaf"
+  },
+  "chain": {
+    "block_index": 77,
+    "sha256_chain_hash": "049f9f0e7c0360bf3cbeb25ec06a01afdfe5415a557bb7b2a04a70cce3626c6a",
+    "sha3_chain_hash": "2ec793aab3396f8e5a877879a04a1c713e38e4f7b3819c1e936e032100838a997557675d3edcba0085450977973a4c787d64d576baf94ce34d18b616b6226d2b",
+    "blake3_chain_hash": "071ba893f268c208c42f80efea36b3d830f6134b27ab76868cc2da50024d8726",
+    "cross_chain_hash": "f479da9215e2e12abc57776daec92c75af2aaf58eabae2342a985a5dc8d6fa8ead24f485666aeb87a73d19f387dd98075ebee264a72e0e7fdbff6bbdd3e11d6b",
+    "prev_sha256_chain": "456fadfc824a895ffb0405a9d3076a47d108bf9b6054d2259104d967fb12866f",
+    "prev_sha3_chain": "014407a38119275209cfd17567d8209916f65a8cd5589cb4d38f26bddb1d6ed882f7f4049bbd90238b4ba4f9ddb0b90b39f58d047630d0dcbf335e6d38e91794",
+    "prev_blake3_chain": "29929a8d6bd4589c493b02b38ba3e82df84f5f7daf1a96eb8cc35c40023c41ad",
+    "quantum_resilient": true
+  },
+  "agents": {
+    "hasher": {
+      "agent": "hasher",
+      "status": "ok",
+      "sha256": "0bfdda241fc2a62a02f984f2b6b73a35d852904c61f0a44ac27aabc23d13639e",
+      "sha3_512": "5ee356dcaebd1bb121859d88937debdc41ffa17c42d16105bd8964a390c18c8e3f8ad1775c0cf27f067e12e014350c76a4ca17e8526b907550902ec3bfbacf35",
+      "blake3": "17d0027bbe54ba687df7c9eb5a31aa5e59f1e09b9a7dbcca6be4543a0b02feaf"
+    },
+    "bitcoin": {
+      "agent": "bitcoin",
+      "status": "pending",
+      "accepted_calendars": [
+        {
+          "url": "https://alice.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8AglZqfoP4zXvgjwEGmXDTM8V+qvSYgZhOyb9YYI8SCXhaT1T57GCyBOBJ+AYuYzWPfvvwBCqGc65Dvd5Sy5LwjxIFIxwTEZOund9Ubg7Z5nnOkDnagUYc2X9dEyb1NwD7KtCPAg5EN2ueqrW98eX3FObsfcP2499La9WkIOAa8LOO6WLT4I8QRqRozs8AgQVJKgmkDI1wCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
+        },
+        {
+          "url": "https://btc.calendar.catallaxy.com",
+          "receipt_b64": "8BA3UHYUqmLchlvoFJsahXInCPEg/YDrrxtumbKD3gAMb6iNuMO/tMIJLw0dbzAr3chwOf4I8SBaGQ8tRZwCPsuHY9RtBMU+CrnmixqtEebfWccMnnTzlQjxBGpGjOzwCFFw+BYWumJpAIPf4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t"
+        },
+        {
+          "url": "https://bob.btc.calendar.opentimestamps.org",
+          "receipt_b64": "8Ah7RXSjm9IquAjwEOiyDAhHVPTavQqIBlbaGIYI8SAAmulXbkgk41N4kw85CeNvW0Jrc8TgjeNl5jdYEZjMCgjxILEWcL8t3c++UwRNpfzAAx7WO9FLF/b7EFEpzSmj6kMnCPEEakaM7PAIAuxSzbMlNmYAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc="
+        }
+      ],
+      "calendar_count": 3,
+      "submitted_at": "2026-07-02T16:08:13.027174+00:00",
+      "block_height": null,
+      "block_date": null,
+      "txid": null,
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
+    },
+    "remid": {
+      "agent": "remid",
+      "status": "issued",
+      "id": "REMID:2026.0702/0bfdda24",
+      "resolver": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24",
+      "json": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0702%2F0bfdda24",
+      "authority": "REM Protocol Agent",
+      "issued_at": "2026-07-02T16:08:12.007934+00:00",
+      "datacite_doi": "10.5281/zenodo.21133508",
+      "external_doi": "10.5281/zenodo.21133508",
+      "external_doi_resolver": "https://doi.org/10.5281/zenodo.21133508"
+    },
+    "ipfs": {
+      "agent": "ipfs",
+      "status": "pinned",
+      "cid": "bafkreial7xncih6cuyvaf6me6k3loorv3bjjatdb6csevqt2vpbd2e3dty",
+      "gateway": "https://gateway.pinata.cloud/ipfs/bafkreial7xncih6cuyvaf6me6k3loorv3bjjatdb6csevqt2vpbd2e3dty",
+      "all_pins": [
+        {
+          "provider": "Pinata",
+          "cid": "bafkreial7xncih6cuyvaf6me6k3loorv3bjjatdb6csevqt2vpbd2e3dty",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreial7xncih6cuyvaf6me6k3loorv3bjjatdb6csevqt2vpbd2e3dty"
+        },
+        {
+          "provider": "Pinata (JSON)",
+          "cid": "bafkreibj7hclgkuncrtux7hhgr5t6uauc65s2r4g46sze4rgp3by3oyz4u",
+          "gateway": "https://gateway.pinata.cloud/ipfs/bafkreibj7hclgkuncrtux7hhgr5t6uauc65s2r4g46sze4rgp3by3oyz4u"
+        }
+      ],
+      "note": "Pinned to 2 IPFS provider(s)"
+    },
+    "archive": {
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0702%2F0bfdda24",
+          "status": "failed_404"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/0856b47e-5eab-47a8-9ab2-771b4c4f85be/json",
+          "status": "failed_523"
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24",
+      "note": "Submitted 3 URLs to Wayback Machine."
+    },
+    "zenodo": {
+      "agent": "zenodo",
+      "status": "pending",
+      "note": "minting in background"
+    }
+  },
+  "rem_record": {
+    "created": "2026-07-02T16:08:11.989736+00:00",
+    "protocol_ref": "draft-reilly-rem-protocol-01",
+    "archive_uris": [
+      "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24",
+      "https://gateway.pinata.cloud/ipfs/bafkreial7xncih6cuyvaf6me6k3loorv3bjjatdb6csevqt2vpbd2e3dty",
+      "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0702%2F0bfdda24"
+    ]
+  },
+  "status": "pending",
+  "security": {
+    "binding_hash": "93bab5bf28dab859557f7037863502f8ff873455b00b5f0365095e45c540f845",
+    "binding_fields": "record_id + remid + created_at"
+  }
+}
