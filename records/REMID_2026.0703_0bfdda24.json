@@ -90,22 +90,25 @@
     },
     "archive": {
       "agent": "archive",
-      "status": "pending",
-      "archived_urls": [],
-      "failed_urls": [
+      "status": "archived",
+      "archived_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0703%2F0bfdda24",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0703%2F0bfdda24",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0703%2F0bfdda24",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0703%2F0bfdda24",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/record/8923e21d-6b23-4c04-bac8-65846357a4c4/json",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/8923e21d-6b23-4c04-bac8-65846357a4c4/json",
+          "status": "archived"
         }
       ],
+      "failed_urls": [],
       "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0703%2F0bfdda24",
       "note": "Submitted 3 URLs to Wayback Machine."
     },
@@ -123,6 +126,14 @@
         "token_len": 60,
         "token_masked": "bdPS...EmBq"
       }
+    },
+    "github": {
+      "agent": "github",
+      "status": "committed",
+      "file": "records/REMID_2026.0703_0bfdda24.json",
+      "sha": "ab698ff2c6d2543758012e0e0a568fa3224325fa",
+      "url": "https://github.com/lawrencejohnreilly-creator/rem-records/blob/main/records/REMID_2026.0703_0bfdda24.json",
+      "commit": "f36d84f46e88d8d12bf8abb9de862e9b77c47509"
     }
   },
   "rem_record": {
