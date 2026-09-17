@@ -36,7 +36,7 @@
     },
     "bitcoin": {
       "agent": "bitcoin",
-      "status": "pending",
+      "status": "confirmed",
       "accepted_calendars": [
         {
           "url": "https://alice.btc.calendar.opentimestamps.org",
@@ -53,10 +53,12 @@
       ],
       "calendar_count": 3,
       "submitted_at": "2026-09-16T23:05:35.189525+00:00",
-      "block_height": null,
-      "block_date": null,
+      "block_height": 967336,
+      "block_date": "2026-09-16T23:26:39+00:00",
       "txid": null,
-      "note": "Submitted to 3/3 calendars. Confirms in ~10 min."
+      "note": "Submitted to 3/3 calendars. Confirms in ~10 min.",
+      "upgraded_receipt_b64": "CPEgJriDBt/JM7kIVH2hMWXy8md5kc7tcBUBuNj92pVq4UAI8CAbJWc+7Jy2Mv0q1uYFb759B9ftRM/+sHMSClPBQQZT3QjxIEVgT7I8pRKq5/p96kBdNYa1RodYy5rUfIvJ2Bnx4of+CPEgwala2cIm3VXZKTwJWl6VQpbIHhUf8ay5QViBnW4EgtcI8SDr2lS2eI8wfBwQo63zzUQhFnrv2PGWRovJxmm7jFedewjxIOK9pBxf3FmgHrlEH4uT5cyW9gbWIqASCZUFqqlrpFCbCPEgI3fm39EmC2uCeKareIgjvnRj7OU6aRMh2SKgwbyz6WQI8CBxemQljoCAPT5O4YcblgXXBck65Dr8zkJEASrnjVWpqQjwIFwkHOlS0+jMKucFqmNS37K9SjHMJWgw85PyBmZFPglkCPAgx3ZWC5YgYaLE4Rp1ffutjGQKTl8cJGh/w1gBOSrqln8I8SAwXsyDjg3pfmQNQo8VmEQ3UhP/3ivjj8y+KyZlG+24uAjxWQEAAAABISAKBxP7Doom3C6vd9/nV4/5iE3jt0euv+PNhIU3OMQAAAAAAP7///8CvFEAAAAAAAAWABSWiIo+AvZFMUhwMtpohB2KNXia/wAAAAAAAAAAImog8ASnwg4ACAjxINbmpqdS5Pyp3NUBkWvXq3vAQvq0nxcaJ7xZrQba0baACAjxID3rc/u23ogFPYEmvaEDCx2iviKMYf9D498AWviRkfSACAjwICGVNHfWp28hi6tnV456AsI6BPn5xN5tKNIJIMsxryYuCAjxIPRPfCNyiXd6VhzpsacH3fxE/WjBBdxumc7ytdRcuOckCAjwIMSztg4ClIUOLebWg3S1HlBh5CXreATAh0rDwLkmREeFCAjxIENWnZ16R0QOCNyo5lM69GaDPhGPqM+K5NdIHcP6vOkaCAjxIKGBMTbdk/HNEGMYhIAM549XjjJ7B1ltkpcWmj1G1W6cCAjxIKG1i/JD3kVoLlgxuc7goTP9bWxGTirnbIQprZDHSfInCAjxIGRHSeNR0eplYC+ScRDcwuuIrN55F5yhIDyRdmt6RHcYCAjxINECdKbuuHsn0/BMq0lTTXOeYzDq/7K72t5FyNHih0HyCAjxILpLtyLHgUdUjbClmcc3L+gZefjaYeoIgOEcdyziiyphCAjwIDoOkbkSy3VMcRZUfsvA0wlGOiXZFH1UjuubzlMFa3g7CAjwINL6ZaIWqFYuuzYKdP0Ix3CzMvCnzAlcbTpbmh8dCcqNCAgABYiWDXPXGQEDqIU7",
+      "commitment": "6aab20bfab3075d6277622cf147db2aac7eed10360c93888d17280ea9be171345f53047d446a83bc2811c8c7"
     },
     "remid": {
       "agent": "remid",
@@ -66,7 +68,9 @@
       "json": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.0916%2F637f85c1",
       "authority": "REM Protocol Agent",
       "issued_at": "2026-09-16T23:05:33.964262+00:00",
-      "datacite_doi": null
+      "datacite_doi": null,
+      "external_doi": "10.5281/zenodo.22133666",
+      "external_doi_resolver": "https://doi.org/10.5281/zenodo.22133666"
     },
     "ipfs": {
       "agent": "ipfs",
@@ -89,7 +93,7 @@
     },
     "archive": {
       "agent": "archive",
-      "status": "pending",
+      "status": "archived",
       "archived_urls": [],
       "failed_urls": [
         {
@@ -110,8 +114,18 @@
     },
     "zenodo": {
       "agent": "zenodo",
-      "status": "mint_attempted",
-      "attempted_at": "2026-09-16T23:09:29.463400+00:00"
+      "doi": "10.5281/zenodo.22133666",
+      "recovered": true,
+      "deposition_id": 22133666,
+      "status": "published"
+    },
+    "github": {
+      "agent": "github",
+      "status": "committed",
+      "file": "records/REMID_2026.0916_637f85c1.json",
+      "sha": "8efc84c0e9a1b663567e1cfc7a51c0c366f9761a",
+      "url": "https://github.com/lawrencejohnreilly-creator/rem-records/blob/main/records/REMID_2026.0916_637f85c1.json",
+      "commit": "0a02596fd7013063e97bbb8d90ab51a194f62364"
     }
   },
   "rem_record": {
@@ -123,7 +137,7 @@
       "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.0916%2F637f85c1"
     ]
   },
-  "status": "pending",
+  "status": "verified",
   "security": {
     "binding_hash": "f1385743eaa57d412b7b89e7fc6f80d2e03f81a6c4a8db46f67aff412f196deb",
     "binding_fields": "record_id + remid + created_at"
