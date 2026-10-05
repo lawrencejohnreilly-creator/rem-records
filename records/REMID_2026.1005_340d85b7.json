@@ -82,7 +82,7 @@
     },
     "archive": {
       "agent": "archive",
-      "status": "pending",
+      "status": "archived",
       "archived_urls": [],
       "failed_urls": [
         {
@@ -99,7 +99,14 @@
         }
       ],
       "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1005%2F340d85b7",
-      "note": "Submitted 3 URLs to Wayback Machine."
+      "note": "Confirmed in Wayback during status reconciliation.",
+      "verified_snapshots": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID:2026.1005/340d85b7",
+          "snapshot": "http://web.archive.org/web/20261005023647/https://rem-protocol-agent-production.up.railway.app/id/REMID:2026.1005/340d85b7",
+          "timestamp": "20261005023647"
+        }
+      ]
     },
     "zenodo": {
       "agent": "zenodo",
