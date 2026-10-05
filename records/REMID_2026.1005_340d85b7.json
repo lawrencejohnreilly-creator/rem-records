@@ -93,22 +93,25 @@
     },
     "archive": {
       "agent": "archive",
-      "status": "pending",
-      "archived_urls": [],
-      "failed_urls": [
+      "status": "archived",
+      "archived_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1005%2F340d85b7",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1005%2F340d85b7",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1005%2F340d85b7",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1005%2F340d85b7",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/record/e9a725e8-fe89-4564-9f31-033854668495/json",
-          "status": "failed_523"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/e9a725e8-fe89-4564-9f31-033854668495/json",
+          "status": "archived"
         }
       ],
+      "failed_urls": [],
       "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1005%2F340d85b7",
       "note": "Submitted 3 URLs to Wayback Machine."
     },
@@ -145,7 +148,7 @@
       "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1005%2F340d85b7"
     ]
   },
-  "status": "confirmed",
+  "status": "verified",
   "security": {
     "binding_hash": "b7ea4d42a4fd1225708cfcb7b45be42fcfc3474afa2ca0921296102685807031",
     "binding_fields": "record_id + remid + created_at"
