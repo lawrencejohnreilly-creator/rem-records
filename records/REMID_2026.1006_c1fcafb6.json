@@ -1,6 +1,6 @@
 {
   "rem_version": "1.2",
-  "record_id": "cd5edf11-7cab-43a4-89fd-10d4773071e3",
+  "record_id": "03d92f58-b2ec-4823-b146-aa33d7d2bc56",
   "artifact": {
     "title": "Untitled",
     "author": "Unknown",
@@ -16,14 +16,14 @@
     "blake3": "237d6b5b12ba69a30a4cb61f571be04d54ac5d0a51473666630bc87ed3e1d05b"
   },
   "chain": {
-    "block_index": 1379,
-    "sha256_chain_hash": "6278b48d63cc87f72cbc54b900e3858eacdea63bd7bc8c412a955aeeb27d1c25",
-    "sha3_chain_hash": "eaa6d0a1325f83fb8be3619df97ef3a728422b09111babd77d859a6b4f52f682196fcec394db671bbc2538d35d61a68e4793b4ce6c65b97cc2a79bbeed400d34",
-    "blake3_chain_hash": "ef979e30e7ad4c1a5400144b2b3de9f9b68ed2ce17661a261f56c23dc8bd4606",
-    "cross_chain_hash": "34ad5a88476ea58c7859f65541de681c907a43d70019554740e1413fc87dbbeac04c350e53db5c2058b5aed03bef566d61acc6cdd3d8903824281c202f705ce2",
-    "prev_sha256_chain": "325ec8f8f73db704927f9b30618611da4c993ceb7b27a2fd6c66ff70bfa83ca9",
-    "prev_sha3_chain": "604dc4598168bc9245bbcac9204073309c42e2c8a453e9d42d010d466ceb9608f29e2570afd10042a03546fc57a39b284b64311069d58df9bcf76a3d136c2818",
-    "prev_blake3_chain": "2a303dfa9fac38dd69caca5ed8eb98b4014722965c56d388afc821d920e8e0e0",
+    "block_index": 1389,
+    "sha256_chain_hash": "680a109c29bf908be2137b597b6d45c25bdcf3f8f39bc6a32d40ab8fb38f86e4",
+    "sha3_chain_hash": "a6ce518546fa5b61b50c8d8849b8a73081df74894953129bf325eefa147fbbe28162a5d22144b7edd92ba13cba33156fd4b861766d38ba737c448da551655ea5",
+    "blake3_chain_hash": "2a80236fbe6ede6cd71b70c6f985ba8f14eabca92ff0fdcb5c9509e66dad87ae",
+    "cross_chain_hash": "2ef3a0f98b5d563d8e2b491e6d24c133d2fcac64b0a3a82dc055d2c7fa2be1e0586e25d842a55b4d3b18dd6894c1b73e4286a0f4305bd590bf39ec318817e72c",
+    "prev_sha256_chain": "c6c6b7ca6cd90b27820c69bb54fa68360726ba4f9b4e0acca73ba69c53614659",
+    "prev_sha3_chain": "35800ed9fc4fc89d18bba38fbdd82f4375172f041786909b4b8217598ffaaeab4b56b17e9f28624dcc68746db724bfaf677e1fe49a9bcce576bfc7b820e0f72c",
+    "prev_blake3_chain": "ca821f8545ce46f9672aa9170b77b9c4fb8ebe60fc9be06695284a5d3e772cad",
     "quantum_resilient": true,
     "note": "Triple-hash chain: SHA-256 (Bitcoin-native), SHA3-512 (post-quantum, 256-bit quantum security), BLAKE3 (modern, high-performance). Cross-chain hash: SHA3-512(sha256_chain+sha3_chain+blake3_chain) \u2014 all three must be simultaneously broken to forge this chain."
   },
@@ -40,25 +40,25 @@
       "accepted_calendars": [
         {
           "url": "https://alice.btc.calendar.opentimestamps.org",
-          "receipt_b64": "8AihxSHLd5tq0wjxICisCxajcuK0g93iTD9SNv6QwFRlMuKkQVfGA4ceJzgMCPAgWVUI983mYOQNo8H38herDGdEglezpTtfeIJKPWHwjg8I8BC9Xwlw/qRtkQkWM2URHV7sCPEgr5jSSO55hdDmTEHMiFAL8LBIe3wvJBTOdjqWwbzZbeoI8CBy4m56QJIqjodqzst6eDfuACoqknfgAgBrvjt6/LCghwjxBGrEx5fwCJGJEMuOitj9AIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc="
+          "receipt_b64": "8AhYTatIH87VUgjwEGsXmUkO0fqmKoWVJKHZL7EI8SDVFQGWK4l/QYrujbKWyUSrURr76vDzTaWJPtqSpjyhVwjxIFEWuByvDqCLKqyMe23CMW4QLEENFJl0Y3EQqOn45UXdCPEEasTMWPAIUmIb++Kxxo0Ag9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
         },
         {
           "url": "https://bob.btc.calendar.opentimestamps.org",
-          "receipt_b64": "8AhkrOcNbK+CfgjwED6FX6y/8FKfDnJ+PVUnFBQI8CAq8NAR5/tZxm93BAId3/fZueL+fG0OFq8Y80i+mK2f4AjxIJ2yF0yBRdJ4UxAvGt/xJB4oe/f+CzMrqNxGc/HaOkdNCPAg3lI/sl31HvdxS7aE6IPSVk6lPHYJiZWmpuLKgS+zg+kI8QRqxMeX8Ahfd8DA/bmkUgCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw=="
+          "receipt_b64": "8Ai60332wNuZ5AjwIMuY3QD3SFqCi0NHKZGM6ZI4uOZiFe3Xy2HgeYz/XH1gCPAQe1yO+hwatEDzFw5409L0tAjxIE+QCU+lezquv6wekZjIO4EZTU2SgXYV2+WSycb8j7cxCPEgd6qI/2pWj5/Vb0xD9ymdIToERe2Rok8i6zfvlltOcGUI8CCCucClwY6sFHSd2NJL7Je0MOgacS7OqWjk8nBDszvjMQjxBGrEzFjwCCwpGdBYaEBjAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn"
         },
         {
           "url": "https://btc.calendar.catallaxy.com",
-          "receipt_b64": "8BBnbi7WUQ9CD4hpque7ab2ACPAgghNHCHfrMQGz3IpKZOxEsn9qaEVVF+S9HvUX8J7AsPAI8CCbx5AT5F1ZS6Y/MNMqT+fBnAV/PdJz791CBz3q9B3cRgjwIA6aP2Wt3OacJWoqnSwqZSCzk16vCsbL4e6EDT+mnVfUCPEEasTHl/AIrEedBJfEqSwAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
+          "receipt_b64": "8BAigsDPEbc268C96dcaZ67sCPEgp5CSTTVXDYORxD7HqxauQYKov/Tz+9peHBJGuVfKUOUI8SCHYchoaNZfa3GWDyc33GRbVjnCgw7iRlrRArHNtDB45AjwIM3x7QRQylFmV/38o7y+AqroipOszX2xaSMB1E9AfaLQCPEEasTMWPAIjxBGIFpsUtUAg9/jDS75DI4jImh0dHBzOi8vYnRjLmNhbGVuZGFyLmNhdGFsbGF4eS5jb20="
         }
       ],
       "calendar_count": 3,
-      "submitted_at": "2026-10-06T10:04:07.594084+00:00",
+      "submitted_at": "2026-10-06T10:24:24.404053+00:00",
       "block_height": 970161,
       "block_date": "2026-10-06T10:38:55+00:00",
       "txid": null,
       "note": "Submitted to 3/3 calendars. Confirms in ~10 min.",
-      "upgraded_receipt_b64": "CPEg0NEt0qu21plRQTqFHUKUpkiLbysjv0jJnu1A43pbYVcI8SAppjcqtZCZ9CCJchFpuPKkUNq8KC2TYJpCZhCbu/r67wjxIOCEPqzUtYz71yF3o8K0/52RsuYxjvQ3NUJFjww0oLYyCPAg9xz2UMs55g+7N+Y5urfrig4rAHsTnwxhn/axX4c+VykI8SDkh2oq68iAfkIJ4eb/23NJlZZRx/2nOp6ynX/maSW6iwjwIJVjWZWKDkAZX9Hj5qbkCT7vv1TAilfzsxvvvPDI21AmCPEgfYmM6LrSYxh5m9zAArS5MkZbw+tVNxA0L6KdYZDTdqII8CBQJ/aOxJDv/l2IPrrAWMUaUU/A4yMdFjSEfDHLeYdMjwjwIIdSWbs5PfHnixpCEpsRMaait6vAe5aXuePpeW1W+ysvCPAgMtMk7SwmpoqOZv0uG++0pJYY8x/BZvEwBatV/jYnaZgI8SBCPH67rYQRcaFiMLpAEt003NJTNy93OtEcDRy2EfUKjwjwIDcGKUdUoSMN1H9ifOHZBQxd+474lWzoUbNvxKMwKqoICPFZAQAAAAEv/bC1b3CSMwzhhxz3vSlVPgZ+3GUbPkA65H+vOLdQNQAAAAAA/v///wIH5AAAAAAAABYAFJdvIXdf61dh5LPuAFyuLO0v2FAjAAAAAAAAAAAiaiDwBLDNDgAICPEgVqlCpfVP0mkBomP3lutiA/VWIMEHmF2BWO2zElqpOdcICPAgp59ys2Va0684x0cein1Y69uckgsSUqRPnUVPpsHhE14ICPAgBLpfvJz/Jc6j+zA7IGbSRu+ywjNZR56CC8QAt1cw/FcICPEgHckRoYyV1th7EpIejNLePcnM8DTICZpj61sIfp8mnk4ICPEg/trtrOnHQBkwMEhbJrKDW3+vBct/MAN+VA1BmRRMd7oICPEgUk8DEOLb7Sj57GbcW4lB7yuWbGicJi5SnwjA6wliSmsICPEgUAKOzTfON/iWbdxx9SGCpoBvgS+m//HFv87LQMlAXQwICPAgSzZDyN/vp0DiI/oFGJCihgr03bEAnHAs37n4N8pEDVEICPAgQ6KNsm9NfTIQF8FkwIginitVUp4hzv6qIo+Hw0bgcWYICPEgPlIpEqaeQp/LwegiPphhDjlokqr5K3l1JOa9dLJ+GCIICPEgQNUFrJeHBgPIkdBZAL9Z5qDUmarCqOJEYf6p5rQ8MGQICPAgTQZqEqBWMHR4luJwve9lnxlib81Zz+xOM/4WL6V+BzAICAAFiJYNc9cZAQOxmzs=",
-      "commitment": "6ac4c797c94aff4b324da6e687d3d344f7d521c3c1dc4872242e82f19c680b65d626fbc1918910cb8e8ad8fd"
+      "upgraded_receipt_b64": "CPEgVnlYi/xrEBd1MZJzinmQewZ9NH5UDDcm5uQjio+flvUI8CAuiBt7QNw60W40yuiSqt1lSay48dWmJ5pVSPOEd3AEMwjwII91yD2lhaw7yHfobS2xoPpw53e9XxXhUvlrjFCjKNikCPAgHO2MD7Oezn6++sjIQFPRCmNLYgCTHdCJbxSWV53gMC8I8SACycqfMFWpmuobT87OPrNVSNVIIMhS2jltbV54JH5K6QjwICNhSz88h1+IewzjtmfdIdkH0UtNCOOMdQhjmZZXoPWrCPAgRgGKtwVOC4mOb974UA/kclh+jllHz9mr7BQ1d/dANV8I8CCrIimSvO6OvsVLqFrLQ8QAmqit+hL/e6bjx06F9pH+dwjxIIn4p0Ct3+oyZ5k01JbSJ9f+Fm9GlO7kdYdBN2jz/UJ/CPAg31H84Pwo+UI7L4lrEeiRx1gMNW92H3WXfOymaF8hdbkI8SB16asHmISoYAyXb8dx88jTQY/K42ziYqWIIEF9ASDv7QjxWQEAAAABL/2wtW9wkjMM4Ycc970pVT4GftxlGz5AOuR/rzi3UDUAAAAAAP7///8CB+QAAAAAAAAWABSXbyF3X+tXYeSz7gBcriztL9hQIwAAAAAAAAAAImog8ASwzQ4ACAjxIFapQqX1T9JpAaJj95brYgP1ViDBB5hdgVjtsxJaqTnXCAjwIKefcrNlWtOvOMdHHop9WOvbnJILElKkT51FT6bB4RNeCAjwIAS6X7yc/yXOo/swOyBm0kbvssIzWUeeggvEALdXMPxXCAjxIB3JEaGMldbYexKSHozS3j3JzPA0yAmaY+tbCH6fJp5OCAjxIP7a7azpx0AZMDBIWyayg1t/rwXLfzADflQNQZkUTHe6CAjxIFJPAxDi2+0o+exm3FuJQe8rlmxonCYuUp8IwOsJYkprCAjxIFACjs03zjf4lm3ccfUhgqaAb4Evpv/xxb/Oy0DJQF0MCAjwIEs2Q8jf76dA4iP6BRiQooYK9N2xAJxwLN+5+DfKRA1RCAjwIEOijbJvTX0yEBfBZMCIIp4rVVKeIc7+qiKPh8NG4HFmCAjxID5SKRKmnkKfy8HoIj6YYQ45aJKq+St5dSTmvXSyfhgiCAjxIEDVBayXhwYDyJHQWQC/Weag1JmqwqjiRGH+qea0PDBkCAjwIE0GahKgVjB0eJbicL3vZZ8ZYm/NWc/sTjP+Fi+lfgcwCAgABYiWDXPXGQEDsZs7",
+      "commitment": "6ac4cc58bcdba4a066f6d4c70be3d12f91c172814758f5ee3e8b21de91ea140d7023432e52621bfbe2b1c68d"
     },
     "remid": {
       "agent": "remid",
@@ -67,10 +67,10 @@
       "resolver": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1006%2Fc1fcafb6",
       "json": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1006%2Fc1fcafb6",
       "authority": "REM Protocol Agent",
-      "issued_at": "2026-10-06T10:04:06.365887+00:00",
+      "issued_at": "2026-10-06T10:24:23.402240+00:00",
       "datacite_doi": null,
-      "external_doi": "10.5281/zenodo.23185099",
-      "external_doi_resolver": "https://doi.org/10.5281/zenodo.23185099"
+      "external_doi": "10.5281/zenodo.23185523",
+      "external_doi_resolver": "https://doi.org/10.5281/zenodo.23185523"
     },
     "ipfs": {
       "agent": "ipfs",
@@ -87,18 +87,15 @@
       "failed_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1006%2Fc1fcafb6",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "status": "failed_520"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1006%2Fc1fcafb6",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "status": "failed_520"
         },
         {
-          "url": "https://rem-protocol-agent-production.up.railway.app/record/cd5edf11-7cab-43a4-89fd-10d4773071e3/json",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/03d92f58-b2ec-4823-b146-aa33d7d2bc56/json",
+          "status": "failed_520"
         }
       ],
       "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1006%2Fc1fcafb6",
@@ -107,10 +104,10 @@
     "zenodo": {
       "agent": "zenodo",
       "status": "published",
-      "doi": "10.5281/zenodo.23185099",
-      "conceptdoi": "10.5281/zenodo.23185098",
-      "record_url": "https://zenodo.org/records/23185099",
-      "deposition_id": 23185099,
+      "doi": "10.5281/zenodo.23185523",
+      "conceptdoi": "10.5281/zenodo.23185522",
+      "record_url": "https://zenodo.org/records/23185523",
+      "deposition_id": 23185523,
       "doi_public": true,
       "debug": {
         "step": "published",
@@ -121,7 +118,7 @@
     }
   },
   "rem_record": {
-    "created": "2026-10-06T10:04:06.352059+00:00",
+    "created": "2026-10-06T10:24:23.384778+00:00",
     "protocol_ref": "draft-reilly-rem-protocol-01",
     "archive_uris": [
       "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1006%2Fc1fcafb6",
@@ -131,7 +128,7 @@
   },
   "status": "confirmed",
   "security": {
-    "binding_hash": "0e7840495dc964e44c1c2354c113f436e8cfd7a7d5887a8503d537079c75b7d8",
+    "binding_hash": "b441f2d59a69e8a650e1379d24247c7f88acbbadd6d0f342d6cc612f252e7ade",
     "binding_fields": "record_id + remid + created_at"
   }
 }
