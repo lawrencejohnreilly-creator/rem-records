@@ -83,33 +83,26 @@
     "archive": {
       "agent": "archive",
       "status": "archived",
-      "archived_urls": [],
-      "failed_urls": [
+      "archived_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1007%2Fc1fcafb6",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1007%2Fc1fcafb6",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1007%2Fc1fcafb6",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1007%2Fc1fcafb6",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/record/44c7b7df-9dfe-4cc7-970c-166202c5e7cf/json",
-          "status": "failed",
-          "error": "All connection attempts failed"
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/record/44c7b7df-9dfe-4cc7-970c-166202c5e7cf/json",
+          "status": "archived"
         }
       ],
+      "failed_urls": [],
       "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1007%2Fc1fcafb6",
-      "note": "Confirmed in Wayback during status reconciliation.",
-      "verified_snapshots": [
-        {
-          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID:2026.1007/c1fcafb6",
-          "snapshot": "http://web.archive.org/web/20261007013834/https://rem-protocol-agent-production.up.railway.app/id/REMID:2026.1007/c1fcafb6",
-          "timestamp": "20261007013834"
-        }
-      ]
+      "note": "Submitted 3 URLs to Wayback Machine."
     },
     "zenodo": {
       "agent": "zenodo",
