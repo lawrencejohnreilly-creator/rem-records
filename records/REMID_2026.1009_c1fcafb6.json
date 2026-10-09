@@ -82,19 +82,20 @@
     },
     "archive": {
       "agent": "archive",
-      "status": "pending",
-      "archived_urls": [],
-      "failed_urls": [
+      "status": "archived",
+      "archived_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1009%2Fc1fcafb6",
-          "status": "failed",
-          "error": ""
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3A2026.1009%2Fc1fcafb6",
+          "status": "archived"
         },
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1009%2Fc1fcafb6",
-          "status": "failed",
-          "error": ""
-        },
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3A2026.1009%2Fc1fcafb6",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
         {
           "url": "https://rem-protocol-agent-production.up.railway.app/record/724fac58-3207-4d7f-8fc7-d1bcab3b983f/json",
           "status": "failed_523"
