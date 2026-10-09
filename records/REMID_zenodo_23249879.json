@@ -1,0 +1,82 @@
+{
+  "rem_version": "1.2",
+  "record_id": "382cfdf8-69ac-42be-ad51-7d14be73270d",
+  "artifact": {
+    "title": "Untitled",
+    "author": "Unknown",
+    "description": "Untitled",
+    "filename": "agent.json",
+    "byte_length": 15894
+  },
+  "hash": {
+    "algorithm": "SHA-256",
+    "value": "",
+    "sha3_512": "",
+    "blake3": "",
+    "md5": "de7190fbed55c94e7775c6366bfb32f7"
+  },
+  "agents": {
+    "hasher": {
+      "status": "restored"
+    },
+    "bitcoin": {
+      "status": "unknown",
+      "accepted_calendars": []
+    },
+    "remid": {
+      "id": "REMID:zenodo/23249879",
+      "status": "restored",
+      "external_doi": "10.5281/zenodo.23249879",
+      "external_doi_resolver": "https://doi.org/10.5281/zenodo.23249879"
+    },
+    "archive": {
+      "agent": "archive",
+      "status": "archived",
+      "archived_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F23249879",
+          "wayback": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F23249879",
+          "status": "archived"
+        }
+      ],
+      "failed_urls": [
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/resolve/REMID%3Azenodo%2F23249879",
+          "status": "failed",
+          "error": "All connection attempts failed"
+        },
+        {
+          "url": "https://rem-protocol-agent-production.up.railway.app/record/382cfdf8-69ac-42be-ad51-7d14be73270d/json",
+          "status": "failed",
+          "error": "All connection attempts failed"
+        }
+      ],
+      "wayback_search": "https://web.archive.org/web/*/https://rem-protocol-agent-production.up.railway.app/id/REMID%3Azenodo%2F23249879",
+      "note": "Submitted 3 URLs to Wayback Machine."
+    },
+    "zenodo": {
+      "status": "published",
+      "doi": "10.5281/zenodo.23249879",
+      "deposition_id": 23249879,
+      "record_url": "https://zenodo.org/records/23249879"
+    }
+  },
+  "rem_record": {
+    "created": "2026-10-08T22:41:11.657038+00:00",
+    "protocol_ref": "draft-reilly-rem-protocol-01",
+    "archive_uris": []
+  },
+  "status": "pending",
+  "restored_from": "zenodo",
+  "chain": {
+    "block_index": 4756,
+    "sha256_chain_hash": "ee8228c1066922a621580dca852271c5a81ca0dbfbbe83f3566e1e4098b9667f",
+    "sha3_chain_hash": "dbf6da581faecb76ad4deaf8159d41419446096fe76d62cae9399a030ecd60ed7c67aab432082cb6f6722e53ba85b97be4f2aef3f98868b8e201acddaca286af",
+    "blake3_chain_hash": "34ebf316291192bb6e834bf584b0f82b21175a9b454e63084c7266de580d94ea",
+    "cross_chain_hash": "0d2d08437c7d2e18e38d6a55a461973c7f40ed1d6ebcc3b9a54b1be5c8f49ca5551c04d383aae9865f436eef3a6bdc6987ba02719fa9f9f788a209982f238376",
+    "prev_sha256_chain": "6f4b552552b4cd7dd956749e00ae4bd9051f0fe615e1366e322fbbca9a70b02d",
+    "prev_sha3_chain": "8944bd1255ccce926f5525def2b2c0edbc305e049993541c4025d7dfae4d00d30341ae2d887d70443c916520933b0e7fdd0b990625a5e10db951fef9331339ff",
+    "prev_blake3_chain": "46f556f724db8e54f0a47e1bdb2e66cb07a90b2f7bcbae51a8eb7dc486a0eb9c",
+    "quantum_resilient": true
+  }
+}
